@@ -12,7 +12,7 @@ public class FXMLExample extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("fxml_example.fxml"));
         primaryStage.setTitle("FXML Welcome");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 330, 275));
         primaryStage.show();
     }
 
@@ -21,3 +21,4 @@ public class FXMLExample extends Application {
         launch(args);
     }
 }
+//https://docs.oracle.com/javase/8/javafx/get-started-tutorial/fxml_tutorial.htm
